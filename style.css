@@ -1,0 +1,105 @@
+@import url(utilities.css);
+:root{
+    --primary: #19e6fa;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    
+    }
+    body{
+        font-family: 'Baloo Chettan 2',sans-serif;
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialised;
+    }
+    header{
+        background-color: var(--dark);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+       
+    }
+    .container{
+        max-width: 1152px;
+        padding: 0px 15px;
+        margin: 0px auto;
+    }
+
+    header nav .leftside {
+        color: var(--pure);
+        text-transform: uppercase;
+
+    }
+    header nav .leftside a:hover{
+        color: var(--primary);
+        transition: all .3s;
+    }
+    header nav .leftside a{
+        color: var(--pure);
+        text-decoration: none;
+        margin-right: 2rem;
+    }
+    header nav{
+        padding: 2rem 0;
+    }
+    header nav .myname{
+        margin: 3rem;
+    }
+    .hero{
+        padding: 4rem 0;
+    }
+    .hero .leftside img{
+        width: 300px;
+
+    } 
+    .hero .rightside{
+        color: var(--pure);
+    }
+    .hero .rightside h6{
+        font-size: 1.6rem;
+        color: var(--primary);
+        margin-bottom: 0.5rem;
+    }
+    .hero .rightside h4{
+        font-size: 4rem;
+        font-weight: 100px;
+        line-height: 1.2;
+
+    }
+    .hero .rightside h4{
+        color: var(--primary);
+    }
+    .hero .rightside p{
+        line-height: 1.9;
+        margin-bottom: 2rem;
+    }
+    .btn-secondary{
+        background: transparent;
+        color: var(--primary);
+        border-color: var(--primary);
+    }
+    .btn-secondary:hover{
+        background: var(--primary);
+        color:#161616;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
